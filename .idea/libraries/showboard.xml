@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="showboard">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../BoulderDash_code/entity/showboard.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

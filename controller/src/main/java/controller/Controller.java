@@ -191,7 +191,7 @@ public final class Controller implements IBoulderDashController, IOrderPerformer
         if ((this.getModel().getMap().getOnTheMapXY((this.getModel().getMyPlayer().getX()), ((this.getModel().getMyPlayer().getY()))).getPermeability() == Permeability.EXIT) && this.getModel().getMyPlayer().getDiamonds() >= diamondGoal) {
             this.hasWon = true;
             this.getModel().getMyPlayer().win();
-            this.getView().displayMessage("You won, Congratulations! Do you to replay?");
+            this.getView().displayMessage("You won, Congratulations! Do you want to replay?");
         }
     }
 
